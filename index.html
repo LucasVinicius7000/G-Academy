@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>G-academy | O novo portal do aluno</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+
+        <div class="mainContainer">
+
+            <div class="cardEsquerdo">
+                <p>bem vindo ao <strong>G-ACADEMY</strong>,<br>o mais novo e moderno portal <br> do aluno do Gadu Institute.</p> 
+                <img id="here" src="images/icons.svg" alt="3 ícones decorativos, sendo, de cima para baixo, respectivamente, uma cabeça humana pensando, livros dispostos como em uma prateleira e um notebook.">
+                <h1>
+                    Gadu<br>Institute
+                </h1>
+              
+            </div>
+          
+            <form action="" method="post" id="form">
+                <div class="cardLogin">
+                    <h2>g-academy</h2>
+                    <span>o novo portal do aluno <img src="images/user.svg" id="user" alt="Ícone de um estudante em frente a um notebook"></span>
+                    
+                    <div class="input">
+                        <label for="">CPF ou Número de Matrícula:</label>
+                        <input type="text" placeholder="digite aqui seu CPF ou sua matrícula">
+                    </div>
+            
+                    <div class="input">
+                        <label for="">Senha de Acesso:</label>
+                        <input type="password" placeholder="digite aqui sua senha">
+                        <button id="safePass" >
+                            <img id="eye" onclick="changeEyeState();" src="images/eye-invisible.svg" alt="Olho tampado">
+                        </button>
+                        <a href="">perdeu sua senha? clique aqui</a>
+                    
+                    </div>
+
+                    <button id="entrar">
+                        <img src="images/login.svg" alt="Ícone representando login na plataforma"> entrar
+                    </button>
+
+                </div>
+            </form> 
+
+            <div class="cardDireito">
+                <img src="images/estudante.jpg" alt="Estudante sentado no chão de uma biblioteca lendo um livro.">
+            </div>
+
+        </div>
+    
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>   
+
+</html>
